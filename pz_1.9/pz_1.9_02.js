@@ -1,17 +1,14 @@
-
+let count = 0;
+let answer = "";
 do{
-	let count = 0;
-
-	switch(count){
-		case(count % 2 === 1):
-			console.log(`${count} - парне число.`);
-		break;
-		case(count % 2 !== 1):
-			console.log(`${count} - непарне число.`);
-		break;
-		case(count === 0):
-			console.log(`${count} - це нуль.`);
-		break;
+	if (count === 0){
+		answer = `${count} - це нуль.`;
+	} else if (count % 2 === 1){
+		answer = `${count} - парне число.`;
+	} else {
+		answer = `${count} - непарне число.`;
 	}
+	console.log(answer);
 	count++;
 } while(count <= 20);
+
