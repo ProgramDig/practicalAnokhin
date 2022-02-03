@@ -1,10 +1,8 @@
-
 for(let i = 0;i <= 100; i++){
 	if(isPrime(i)){
 		console.log(i);
 	}
 }
-
 function isPrime(num){
 	let start = 2;
 	const limit = Math.sqrt(num);

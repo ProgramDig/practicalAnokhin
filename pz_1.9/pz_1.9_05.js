@@ -1,9 +1,7 @@
 let numb = 5000;
-
 function divisionHalf(num){
 	let index = 0;
 	let count = 0;
-
 	while(index !== -1){
 		num /= 2;
 		count++;
@@ -13,5 +11,4 @@ function divisionHalf(num){
 		}
 	}
 }
-
 divisionHalf(numb);

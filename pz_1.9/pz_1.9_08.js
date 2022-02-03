@@ -1,8 +1,6 @@
 let day = prompt('Введіть число від 1 до 7 відповідно до днів тижня', [1]);
-
 function howDay(dayNum){
 	let dayStr = '';
-
 	switch(dayNum){
 		case 1: 
 			dayStr = 'Понеділок';
@@ -31,5 +29,4 @@ function howDay(dayNum){
 	}
 	return dayStr;
 }
-
 alert(howDay(Number(day)));

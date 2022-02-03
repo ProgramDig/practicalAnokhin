@@ -1,5 +1,4 @@
 let month = prompt('Введіть порядок місяця від 1 до 12', [1]);
-
 function howMonth(num){
 	let month;
 	let season;
@@ -43,5 +42,4 @@ function howMonth(num){
 	}
 	return month + " " + season;
 }
-
 alert(howMonth(Number(month)));

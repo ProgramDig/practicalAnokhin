@@ -11,4 +11,3 @@ do{
 	console.log(answer);
 	count++;
 } while(count <= 20);
-
