@@ -34,7 +34,6 @@ function diamondStar(val){
 					document.write('*');
 			  }
 		 }
-
 		 document.write('<br>');
 	}
 	document.write('</center>');

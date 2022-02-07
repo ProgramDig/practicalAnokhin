@@ -125,14 +125,14 @@ a{
 	left: 0;
 	margin: 100px auto auto auto;
 }
-input[type=text], input[type=password], #study-group {
+order: 1px solid #ccc;
+	box-sizing: border-box;
+}input[type=text], input[type=password], #study-group {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-}
+	b
 button {
 	background-color: #730d73;
 	color: white;
