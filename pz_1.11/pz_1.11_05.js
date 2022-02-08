@@ -29,7 +29,5 @@ const conditionNumber = (number, isMul, isPosit, isPrime) =>{
 	}
 	return result
 }
-
 const str = conditionNumber(90,isMul,isPositive,isPrimeNumber);
-
 console.log(str);
