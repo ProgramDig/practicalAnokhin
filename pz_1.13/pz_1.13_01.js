@@ -18,7 +18,7 @@ const weekObj = { // obj
 		7:'Friday'
 	}
 };
-function inputLanguage (result) {
+function inputLanguage (result) { // language
 	const message = 'Не вірно введена мова';
 	result = prompt ("Оберіть мову [ua|en]",'ua');
 	
@@ -32,7 +32,7 @@ function inputLanguage (result) {
 			inputLanguage (result);
 	};	
 }
-function inputNum (inputMessage, inputLang) {
+function inputNum (inputMessage, inputLang) { // Number
 	let message = '';
 	const dayNum = prompt(inputMessage,1);
 	if (dayNum >= 1 && dayNum <= 7){
@@ -50,7 +50,7 @@ function inputNum (inputMessage, inputLang) {
 		inputNum(inputLang);
 	}
 }
-function choiceOfDay(inputLang, number){
+function choiceOfDay(inputLang, number){ // Day
 	const day = weekObj[inputLang][number];
 	alert(day);
 }
