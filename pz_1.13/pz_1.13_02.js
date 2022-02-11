@@ -50,4 +50,4 @@ function genChessBoard (heigth = 8, weigth = 8) {
 	}
 	return board;
 }
-console.log(genChessBoard());
+console.log(genChessBoard()); // max board h = 8, w = 8 
