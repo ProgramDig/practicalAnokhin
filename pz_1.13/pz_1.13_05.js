@@ -1,6 +1,6 @@
 class Generator {
-	// value;
-	// upValue;
+	// value
+	// upValue
 	// isFirst
 	constructor () {
 		this.value = 0;
