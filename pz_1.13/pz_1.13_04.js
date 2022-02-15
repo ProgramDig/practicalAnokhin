@@ -1,8 +1,10 @@
-// function createGreetable (str) {
-// 	const result = str;
-// 	result.greet = function(greeting) {return `${greeting}, ${this}!`};
-// 	return result;
-// }
+function createGreetable (str) {
+	const result = {};
+	result.greet = function(greeting) {
+		return `${greeting}, ${str}!`
+	};
+	return result;
+}
 
-// const g = createGreetable('Oleg');
-// console.log (g.greet('Hello'));
+const g = createGreetable('Oleg');
+console.log (g.greet('Hello'));
