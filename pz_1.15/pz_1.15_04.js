@@ -2,7 +2,7 @@ const email = 'lizzylizzy2309@gmail.com';
 function correctEmail (email){
 	let result = '';
 	if (typeof email == 'string'){
-		const regExp = /.+@gmail.com/;
+		const regExp = /.+@[\w+].[\w+]/;
 		if (regExp.test(email)){
 			result = `email : ${email} введено коректно`;
 		} else {
